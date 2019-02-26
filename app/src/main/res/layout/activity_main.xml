@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/babyBlue"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Gif holder view-->
+    <ImageView
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:contentDescription="@string/gif_holder"
+        android:scaleType="centerCrop"
+        android:src="@drawable/giphy" />
+
+    <!-- Values TV -->
+    <TextView
+        android:id="@+id/values_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:text="Cadence: 0 Speed: 0 Gear: 0" />
+
+</LinearLayout>
